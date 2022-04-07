@@ -33,7 +33,7 @@ Se vor urma urmatorii pasi pentru configurarea `LAN DONALD`:
 - IP configuration si EMAIL configuration pentru `DONALD`;
 - se adauga `SwDONALD` in spatiul de lucru;
 - se adauga `SERVICE` in spatiul de lucru;
-- se configureaza `SwDONALD` [(conform `lab_2`)](lab_02.md) prin `SERVICE`;
+- se configureaza `SwDONALD` [(conform `lab_02`)](lab_02.md) prin `SERVICE`;
 - se realizeaza conexiunea dintre `DONALD` si `SwDONALD`:
 ``` 
     DONALD(G/0) -> SwDONALD(G 0/1)
@@ -72,7 +72,7 @@ IP CONFIGURATION `SERVER`:
 
 Se vor urma urmatorii pasi pentru configurarea `LAN DUCK`:
 - se adauga `SwDUCK` in spatiul de lucru;
-- se configureaza `SwDUCK` [(conform `lab_2`)](lab_02.md) prin `SERVICE`;
+- se configureaza `SwDUCK` [(conform `lab_02`)](lab_02.md) prin `SERVICE`;
 - se adauga `SERVER` in spatiul de lucru;
 - se acceseaza `SERVER`;
 - in tabul `Physical` se va opri `SERVER`-ul;
