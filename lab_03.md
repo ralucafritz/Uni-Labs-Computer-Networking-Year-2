@@ -103,9 +103,9 @@ Se seteaza hostul `BON`:
 - `172.32.243.1`
 - `209.165.200.190`
 
-Se configureaza switchul `SwBON` conform regulilor din `r_l02`.
+Se configureaza switchul `SwBON` conform regulilor din `lab_02`.
 
-Se configureaza routerul `RBON` conform regulilor din `r_l03(acest document)`. (folosind `SERVICE`)
+Se configureaza routerul `RBON` conform regulilor din `lab_03(acest document)`. (folosind `SERVICE`)
 
 ##### Configurare interfata 0/0 `RBON`
 
@@ -145,7 +145,7 @@ Se seteaza hostul `BRAGA`:
 - `173.16.200.1`
 - `209.165.200.190`
 
-Se configureaza switchul `SwBRAGA` conform regulilor din `r_l02`. (folosind `SERVICE`)
+Se configureaza switchul `SwBRAGA` conform regulilor din `lab_02`. (folosind `SERVICE`)
 
 ##### Configurare interfata 0/1 `RBON`
 

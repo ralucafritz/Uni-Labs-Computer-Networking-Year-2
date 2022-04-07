@@ -33,13 +33,13 @@ Se vor urma urmatorii pasi pentru configurarea `LAN DONALD`:
 - IP configuration si EMAIL configuration pentru `DONALD`;
 - se adauga `SwDONALD` in spatiul de lucru;
 - se adauga `SERVICE` in spatiul de lucru;
-- se configureaza `SwDONALD` [(conform `r_l02`)](r_l02.md) prin `SERVICE`;
+- se configureaza `SwDONALD` [(conform `lab_2`)](lab_02.md) prin `SERVICE`;
 - se realizeaza conexiunea dintre `DONALD` si `SwDONALD`:
 ``` 
     DONALD(G/0) -> SwDONALD(G 0/1)
 ```
 - se adauga `RDONALD` in spatiul de lucru;
-- se configureaza `RDONALD` [(conform `r_l03`)](r_l03.md) prin `SERVICE`:
+- se configureaza `RDONALD` [(conform `lab_03`)](lab_03.md) prin `SERVICE`:
 ```
     interface giga 0/0 : 192.168.200.33 255.255.255.224
 ```
@@ -49,7 +49,7 @@ Se vor urma urmatorii pasi pentru configurarea `LAN DONALD`:
 ```
 ![](https://media.discordapp.net/attachments/894378460615680004/961577326871724052/unknown.png?width=374&height=375)
 
-Se testeaza corectitudinea conexiunilor [(conform `r_l03`)](r_l03.md).
+Se testeaza corectitudinea conexiunilor [(conform `lab_03`)](lab_03.md).
 
 !!! A NU SE UITA `exit` DUPA CE SE TESTEAZA CU SUCCES SSH !!!!
 
@@ -72,7 +72,7 @@ IP CONFIGURATION `SERVER`:
 
 Se vor urma urmatorii pasi pentru configurarea `LAN DUCK`:
 - se adauga `SwDUCK` in spatiul de lucru;
-- se configureaza `SwDUCK` [(conform `r_l02`)](r_l02.md) prin `SERVICE`;
+- se configureaza `SwDUCK` [(conform `lab_2`)](lab_02.md) prin `SERVICE`;
 - se adauga `SERVER` in spatiul de lucru;
 - se acceseaza `SERVER`;
 - in tabul `Physical` se va opri `SERVER`-ul;
@@ -84,7 +84,7 @@ Se vor urma urmatorii pasi pentru configurarea `LAN DUCK`:
 ``` 
     SERVER(G/0) -> SwDUCK(G 0/1)
 ```
-- se configureaza `RDONALD` [(conform `r_l03`)](r_l03.md) prin `SERVICE`:
+- se configureaza `RDONALD` [(conform `lab_03`)](lab_03.md) prin `SERVICE`:
 ```
     interface giga 0/1 : 209.165.250.33 255.255.255.240
 ```
@@ -94,7 +94,7 @@ Se vor urma urmatorii pasi pentru configurarea `LAN DUCK`:
 ```
 ![](https://media.discordapp.net/attachments/894378460615680004/961577398372012063/unknown.png?width=537&height=319)
 
-Se testeaza corectitudinea conexiunilor [(conform `r_l03`)](r_l03.md).
+Se testeaza corectitudinea conexiunilor [(conform `lab_03`)](lab_03.md).
 
 !!! A NU SE UITA `exit` DUPA CE SE TESTEAZA CU SUCCES SSH !!!!
 
@@ -200,12 +200,12 @@ Se vor urma urmatorii pasi pentru configurarea `LAN DAISY`:
 - se adauga `DAISY` in spatiul de lucru;
 - IP configuration si EMAIL configuration pentru `DAISY`;
 - se adauga `SwDAISY` in spatiul de lucru;
-- se configureaza `SwDAISY` [(conform `r_l02`)](r_l02.md) prin `SERVICE`;
+- se configureaza `SwDAISY` [(conform `lab_02`)](lab_02.md) prin `SERVICE`;
 - se realizeaza conexiunea dintre `DAISY` si `SwDAISY`:
 ``` 
     DAISY(G/0) -> SwDAISY(G 0/1)
 ```
-- se configureaza `RDONALD` [(conform `r_l03`)](r_l03.md) prin `SERVICE`:
+- se configureaza `RDONALD` [(conform `lab_03`)](lab_03.md) prin `SERVICE`:
 ```
     interface giga 0/2 : 191.168.100.129 255.255.255.128
 ```
@@ -242,13 +242,13 @@ Se vor urma urmatorii pasi pentru configurarea `LAN CHIP`:
 - se adauga `CHIP` in spatiul de lucru;
 - IP configuration si EMAIL configuration pentru `CHIP`;
 - se adauga `SwCHIP` in spatiul de lucru;
-- se configureaza `SwCHIP` [(conform `r_l02`)](r_l02.md) prin `SERVICE`;
+- se configureaza `SwCHIP` [(conform `lab_02`)](lab_02.md) prin `SERVICE`;
 - se realizeaza conexiunea dintre `CHIP` si `SwCHIP`:
 ``` 
     CHIP(G/0) -> SwCHIP(G 0/1)
 ```
 - se adauga `RCHIP` in spatiul de lucru;
-- se configureaza `RCHIP` [(conform `r_l03`)](r_l03.md) prin `SERVICE`:
+- se configureaza `RCHIP` [(conform `lab_03`)](lab_03.md) prin `SERVICE`:
 ```
     interface giga 0/0 : 192.168.10.1 255.255.255.192
 ```
@@ -259,5 +259,5 @@ Se vor urma urmatorii pasi pentru configurarea `LAN CHIP`:
 
 ![](https://media.discordapp.net/attachments/894378460615680004/961577691528708157/unknown.png?width=544&height=282)
 
-Se testeaza corectitudinea conexiunilor din `LAN CHIP`[(conform `r_l03`)](r_l03.md).
+Se testeaza corectitudinea conexiunilor din `LAN CHIP`[(conform `lab_03`)](lab_03.md).
 
