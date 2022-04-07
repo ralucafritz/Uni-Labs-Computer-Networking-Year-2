@@ -1,6 +1,6 @@
-# <center> Retele </center>
-
-## <center> Laboratorul 1 </center>
+#####  Fritz Raluca-Mihaela grupa 243
+# Retele
+### Laboratorul 1 
 
 
 ### Notare
