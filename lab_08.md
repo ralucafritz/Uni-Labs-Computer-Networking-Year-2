@@ -178,7 +178,7 @@ Wireless0 Connection:
    Link-local IPv6 Address.........: FE80::202:16FF:FE17:2884
 ```
 
-In cazul de fata, adresa MAC este cea de la sectiunea `Wireless0 Connection` la subsctiunea `Physical Address`: `0002.1617.2884`.
+Adresa MAC este cea de la sectiunea `Wireless0 Connection` la subsectiunea `Physical Address`, in cazul de fata este: `0002.1617.2884`.
 
 In general adresele MAC pot aparea sub diverse forme:
 - `0002.1617.2884`
