@@ -2,8 +2,6 @@
 #  Retele
 ### Laboratorul 8
 
-Pe Switch doar `interface vlan` + setare `DGW`  
-
 `IPv4`:`138.149.221.115/15`  
 
 LAN ANGLIA = `4095 U`  
@@ -62,7 +60,9 @@ R1 = 2
 `BA` = `138.148.48.71/30`  
 `RA` = `138.148.48.69 - 138.148.48.70/30`
 
-### Configurare wireless router:
+---
+
+# Configurare wireless router:
 
 `Network devices -> Routers -> Wireless Routers -> WRT300N` ![poza networking devices](https://media.discordapp.net/attachments/894378460615680004/962726169294295110/unknown.png?width=31&height=33)
 ![poza WRT300N](https://media.discordapp.net/attachments/894378460615680004/962726125333786704/unknown.png?width=188&height=86)
@@ -86,7 +86,10 @@ In `SERVICE`:
   - dupa ce am introdus username si password ne va aparea:  
     ![poza accesare configurare router](https://media.discordapp.net/attachments/894378460615680004/962729010184486942/unknown.png?width=421&height=376)
 
-Aici incepe propriu-zis configurarea router-ului:
+---
+
+#### Aici incepe propriu-zis configurarea router-ului:
+
 #### Setup:
   - Basic Setup:
     - Internet setup: 
@@ -110,6 +113,9 @@ Aici incepe propriu-zis configurarea router-ului:
   ![poza editare ip config](https://media.discordapp.net/attachments/894378460615680004/962733032169689138/unknown.png?width=328&height=105)
   - Apoi ne intoarcem in `Browser` si accesam `138.148.48.1` si introducem din nou username si parola:  
     ![poza reaccesare config router](https://media.discordapp.net/attachments/894378460615680004/962735092369875115/unknown.png?width=605&height=237)
+
+---
+
 #### Wireless
   - Basic settings: 
     - setam:
@@ -130,6 +136,8 @@ Aici incepe propriu-zis configurarea router-ului:
     ![poza setari MAC Filter](https://media.discordapp.net/attachments/894378460615680004/962738986143612998/unknown.png?width=341&height=78)
     - vom introduce ulterior o adresa MAC in lista
     - SAVE
+
+---
 
 #### Aflarea adresei MAC:
 Pentru acest pas vom adauga un laptop nou numit `LAP1` si ii vom schimba placa de retea cu placa de retea `WPC300N` pentru access la Wi-Fi
