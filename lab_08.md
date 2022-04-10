@@ -188,5 +188,5 @@ In general adresele MAC pot aparea sub diverse forme:
 Acum ne intoarcem in `SERVICE` => `Browser` => Accesam `138.148.48.1` si introducem la MAC Filter, adresa MAC a laptop-ului `LAP1` si salvam. Dupa ce se realizeaza conexiunea, va aparea asa:  
 ![poza conexiune](https://media.discordapp.net/attachments/894378460615680004/962746060814561440/unknown.png?width=426&height=308)
 
-In acelasi timp testam conexiunea cu `ping DGW` sau `ping IP-SERVICE`, exemplu DGW:  
+Testam conexiunea cu `ping DGW` sau `ping IP-SERVICE`, exemplu DGW:  
 ![poza ping](https://media.discordapp.net/attachments/894378460615680004/962746621928538112/unknown.png?width=372&height=202)
