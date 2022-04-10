@@ -188,5 +188,34 @@ In general adresele MAC pot aparea sub diverse forme:
 Acum ne intoarcem in `SERVICE` => `Browser` => Accesam `138.148.48.1` si introducem la MAC Filter, adresa MAC a laptop-ului `LAP1` si salvam. Dupa ce se realizeaza conexiunea, va aparea asa:  
 ![poza conexiune](https://media.discordapp.net/attachments/894378460615680004/962746060814561440/unknown.png?width=426&height=308)
 
-Testam conexiunea cu `ping DGW` sau `ping IP-SERVICE`, exemplu DGW:  
-![poza ping](https://media.discordapp.net/attachments/894378460615680004/962746621928538112/unknown.png?width=372&height=202)
+Testam conexiunea cu `ping DGW` sau `ping IP-SERVICE`, exemplu:  
+
+```
+C:\>ping 138.148.48.1
+
+Pinging 138.148.48.1 with 32 bytes of data:
+
+Reply from 138.148.48.1: bytes=32 time=25ms TTL=255
+Reply from 138.148.48.1: bytes=32 time=9ms TTL=255
+Reply from 138.148.48.1: bytes=32 time=22ms TTL=255
+Reply from 138.148.48.1: bytes=32 time=13ms TTL=255
+
+Ping statistics for 138.148.48.1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 9ms, Maximum = 25ms, Average = 17ms
+
+C:\>ping 138.148.48.2
+
+Pinging 138.148.48.2 with 32 bytes of data:
+
+Reply from 138.148.48.2: bytes=32 time=24ms TTL=128
+Reply from 138.148.48.2: bytes=32 time=13ms TTL=128
+Reply from 138.148.48.2: bytes=32 time=8ms TTL=128
+Reply from 138.148.48.2: bytes=32 time=28ms TTL=128
+
+Ping statistics for 138.148.48.2:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 8ms, Maximum = 28ms, Average = 18ms
+```
