@@ -156,17 +156,17 @@ Pentru a salva:
 
 ---
 
-- adaugam un switch nou: `SwInfo.1`
 - adaugam un PC nou: `Info243.1` -> setam placa de retea si configuram IP: IPv4 = `192.168.100.11`, in rest identic `Info243`
+- adaugam un switch nou: `SwInfo.1` si il configuram
 - adaugam o conexiune de tip STRAIGHT-THROUGH intre `Info243 (GigabitEthernet0)` si `SwInfo (GigabitEthernet0/1)`
-- adaugam o conexiune CROSSOVER intre `SwInfo` si `SwInfo.1` -> `GigabitEthernet0/1`
 - adaugam o conexiune de tip STRAIGHT-THROUGH intre `Info243.1 (GigabithEthernet0)` si `SwInfo.1 (GigabitEthernet0/1)`
+- adaugam o conexiune CROSSOVER intre `SwInfo` si `SwInfo.1` -> `GigabitEthernet0/2`
 - toate conexiunile devin verzi:
 
 ![](https://media.discordapp.net/attachments/894378460615680004/961574452074807306/unknown.png?width=457&height=220)
 
 - click pe `Info243` -> `Desktop` -> `Command Prompt`
-- dam ping ip-ului PC-ului `Info243.1` -> `ping 192.160.100.11` 
+- dam ping ip-ului PC-ului `Info243.1` -> `ping 192.168.100.11` 
 - daca primim 4 reply-uri (pong-uri) => e OK
 
 ![](https://media.discordapp.net/attachments/894378460615680004/961574475629989939/unknown.png?width=375&height=315)
